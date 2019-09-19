@@ -22,6 +22,7 @@ Infection infection;
         infection = new Infection();
     }
     // check if zeros days the error message must be "-1"
+    //R2 and R3 Passed!
     @Test
     public void ZeroDays() {
         int days = 0;
