@@ -25,7 +25,7 @@ Infection infection;
     @Test
     public void ZeroDays() {
         int days = 0;
-        assertEquals("Days",  infection.ZeroDays(-1));
+        assertEquals("-1",  infection.ZeroDays(-1));
     }
 
 }
