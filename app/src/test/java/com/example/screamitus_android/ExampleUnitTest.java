@@ -1,3 +1,7 @@
+// Student Name : Amrik Singh Sidhu
+// Student ID: C0742318
+
+
 package com.example.screamitus_android;
 
 import org.junit.Before;
@@ -17,11 +21,7 @@ Infection infection;
     public void setUp() throws Exception {
         infection = new Infection();
     }
-    @Test
-    public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
-    }
-
+    // check if zeros days the error message must be "-1"
     @Test
     public void ZeroDays() {
         int days = 0;
