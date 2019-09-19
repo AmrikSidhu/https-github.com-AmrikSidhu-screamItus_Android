@@ -28,4 +28,10 @@ Infection infection;
         assertEquals("-1",  infection.ZeroDays(-1));
     }
 
+    @Test
+    public void DysUpToSeven() {
+        int days = 1;
+        assertEquals("numberOfInfectedInstructors = 5",  infection.ZeroDays(days));
+    }
+
 }
